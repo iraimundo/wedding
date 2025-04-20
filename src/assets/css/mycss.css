@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Boldoni";
+    src: local("Bodoni"), url("../fonts/Bodoni Bold Italic.ttf")format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "August";
+    src: url("../fonts/August Script Bold Free.ttf")format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h1-mine {
+    font-family: "August";
+    font-size: 12em;
+    font-weight: 300;
+    color: rgba(235, 230, 227, 1);
+}
+
+
+.h3-mine {
+    font-family: "Bodoni";
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+    color: rgba(235, 230, 227, 1);
+}
+.title-mine {
+    font-family: "August";
+    font-size: 8em;
+    font-weight: 300;
+}
+.clear-filter-mine[filter-color="blue"] {
+    background: rgba(159, 174, 181, 0.5);
+}
+
+.n-logo-mine {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.logo-navbar {
+    max-width: 50px;
+    margin-bottom: 5px;
+}
+
+.container2 {
+    float:left;
+    background-color: rgba(35, 43, 63, 1);
+    color: rgba(235, 230, 227, 1);
+    padding: 2em 2em;
+    border-radius: 25px;
+    margin-bottom: 25%;
+
+}
+
+.box1 {
+    float:left;
+    margin-left: 6em;
+}
+
+.time-numbers {
+    font-family: "August";
+    font-size: 7em;
+}
+
+.time-words {
+    font-family: "August";
+    font-size: 4em;
+}
+
+.background {
+    background-image:
+            linear-gradient(rgba(35, 43, 63, 0.5), rgba(35, 43, 63, 0.5)),
+            url("../img/nossas/IMG_9167_VSCO.JPG");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+
+}
+
+
+.header-mine {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.h1-mine-introducao{
+    font-family: "August";
+    font-size: 6em;
+    font-weight: 400;
+    color: #EBE6E3;
+
+}
+.h3-mine{
+    font-family: "Boldoni";
+    margin-bottom: 20%;
+}
+
+.infos-mine {
+    color: #EBE6E3;
+    font-family: "Boldoni";
+    margin-bottom: 10%;
+}
+
+.texto-localizacao {
+    text-align: center;
+    padding-top: 50%;
+}
+
+.botao{
+    font-family: "Boldoni";
+    color: #EBE6E3;
+    background-color: #232b3f;
+}
+
+.formulario {
+    color: #EBE6E3;
+}
