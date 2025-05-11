@@ -28,7 +28,7 @@ function Download() {
               <Button
                 className="btn-round mr-1"
                 color="info"
-                href="https://www.creative-tim.com/product/now-ui-kit-react?ref=nukr-index-page"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScgUDWlyVejrtAiXMHT85nuScQvwm4aQPuhUWmH6OLHWwwidA/viewform?usp=sf_link"
                 role="button"
                 size="lg"
               >

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 // reactstrap components
 import {
@@ -13,7 +14,7 @@ import {
 } from "reactstrap";
 
 function Presenca() {
-
+    const navigate = useNavigate();
     return (
         <>
             <div className="section">
@@ -27,14 +28,17 @@ function Presenca() {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardBody className="text-center">
-                                    <Button
+                                    <Button onClick={() => navigate('/formulario')}>
+                                        Clica aqui
+                                    </Button>
+                                    {/*<Button
                                         className="btn-neutral btn-round"
                                         color="info"
                                         href="https://docs.google.com/forms/d/e/1FAIpQLScgUDWlyVejrtAiXMHT85nuScQvwm4aQPuhUWmH6OLHWwwidA/viewform?usp=sf_link"
                                         size="lg"
                                     >
                                         Responde aqui
-                                    </Button>
+                                    </Button>*/}
                                 </CardBody>
                                 <CardFooter className="text-center">
                                 </CardFooter>

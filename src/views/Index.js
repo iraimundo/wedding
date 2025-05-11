@@ -4,6 +4,7 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import CountdownPage from "./mine/CountdownPage";
 import Introducao from "./mine/Introducao";
 import Presenca from "./mine/Presenca";
+import Local from "./mine/Local";
 
 function Index() {
   React.useEffect(() => {
@@ -21,6 +22,7 @@ function Index() {
          <IndexHeader />
         <div>
           <Introducao/>
+          <Local/>
           <Presenca/>
           <CountdownPage/>
         </div>
