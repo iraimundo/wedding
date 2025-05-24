@@ -76,7 +76,7 @@
 .background {
     background-image:
             linear-gradient(rgba(35, 43, 63, 0.5), rgba(35, 43, 63, 0.5)),
-            url("../../../../now-ui-kit-react-main/src/assets/img/mine/nossas/IMG_9167_VSCO.JPG");
+            url("../img/nossas/IMG_9167_VSCO.JPG");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
